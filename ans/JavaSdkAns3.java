@@ -33,7 +33,6 @@ public class JavaSdkSample {
 		
         // TRY3 顧客管理アプリのレコードを２件更新する
         // execute PUT RECORD API
-        ArrayList<HashMap<String, FieldValue>> putRecords = new ArrayList<>();
         HashMap<String, FieldValue> record3 = new HashMap<String, FieldValue>();
         FieldValue fv3 = new FieldValue();
         fv3.setType(FieldType.SINGLE_LINE_TEXT);
